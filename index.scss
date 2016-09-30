@@ -5,29 +5,29 @@ html, body{
 }
 
 body{
-	.flex-container-section {
+	.login-form {
 		position: relative;
 		top: 30%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		
-		.flex-container-form {
+		form {
 			display: flex;
 			flex-direction: column;				
 			align-items: center;
 			
-			.flex-elem0-form {				
+			h1 {
 				align-self: flex-start;
 			}
-			.flex-elem1-form {
+			label {
 				margin-top: 10px;
 				align-self: flex-start;
 			}
-			.flex-elem2-form {
+			input {
 				align-self: stretch;
 			}
-			.flex-elem3-form {
+			button {
 				margin-top: 10px;
 				align-self: flex-end;
 			}
