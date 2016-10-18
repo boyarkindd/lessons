@@ -6,7 +6,7 @@
   "scripts": {
     "style": "node-sass --output-style expanded index.scss > index.css",
 		"jade":  "jade < index.jade > index.html",
-		"compile": "node-sass --output-style expanded index.scss > index.css | jade < index.jade > index.html"
+		"compile": "npm run style && npm run jade"
   },
   "repository": {
     "type": "git",
