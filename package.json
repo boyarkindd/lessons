@@ -1,0 +1,21 @@
+{
+  "name": "lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "node-sass --output-style expanded index.scss > index.css",
+		"jade":  "jade < index.jade > index.html",
+		"compile": "node-sass --output-style expanded index.scss > index.css | jade < index.jade > index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boyarkindd/lessons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boyarkindd/lessons/issues"
+  },
+  "homepage": "https://github.com/boyarkindd/lessons#readme"
+}
